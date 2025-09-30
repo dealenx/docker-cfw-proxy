@@ -22,9 +22,9 @@ services:
       - /lib/modules:/lib/modules
       - persist-data:/data
     ports:
-      - "1880:1080"
-      - "8880:8080"
-      - "8338:8338"
+      - "1080"
+      - "8080"
+      - "8338"
     cap_add:
       - NET_ADMIN
       - SYS_MODULE
